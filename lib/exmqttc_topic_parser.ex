@@ -1,4 +1,6 @@
 defmodule Exmqttc.TopicParser do
+  @moduledoc false
+
   def compile(topic) do
     regex = topic
     |> tokenize
