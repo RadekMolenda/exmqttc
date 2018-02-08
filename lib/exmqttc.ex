@@ -27,7 +27,7 @@ defmodule Exmqttc do
   `mqtt_opts` are reformatted so all options can be passed in as a Keyworld list.
 
 `mqtt_opts` supports the following options:
-  - `host`: Connection host, charlist, default: `'localhost'`
+  - `hostname`: Connection host, charlist, default: `'localhost'`
   - `port`: Connection port, integer, default 1883
   - `client_id`: Binary ID for client, automatically set to UUID if not specified
   - `clean_sess`: MQTT cleanSession flag. `true` disables persistent sessions on the server
